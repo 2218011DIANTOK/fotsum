@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wedding-enquiry-page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <img src="Logo Fotsum.png" alt="FotSum Creative Logo"> <p>FotSum</p>
+            <span>CREATIVE</span>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="About.html">About</a></li>
+                <li><a href="index.html">Weddings</a></li>
+                <li><a href="Family.html">Family</a></li>
+                <li><a href="Maternity.html">Maternity</a></li>
+                <li><a href="Newborn.html">Newborn</a></li>
+                <li><a href="Busines_Satu.html">Business</a></li>
+                <li><a href="GiftCards.html">Gift Cards</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Contact.html" class="shopping-bag"><i class="fas fa-shopping-bag"></i> Shopping bag</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="enquire-hero">
+            <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=341,h=506,fit=crop,trim=436.08832807570974;200.85714285714283;0;44.25665859564165/dWxaZqz45NipQ57j/wedding-photography---16-A0xoOrkVrpIbMpaP.jpg" alt="Couple on beach in black and white"> </section>
+
+        <section class="enquire-form-section">
+            <h2>Enquire now & let's create your memories</h2>
+            <form class="enquire-form" action="#" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="first-name">First name*</label>
+                        <input type="text" id="first-name" name="first_name" placeholder="Your first name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last name*</label>
+                        <input type="text" id="last-name" name="last_name" placeholder="Your last name" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" placeholder="Your preferred contact email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="preferred-date">Preferred Date*</label>
+                    <input type="text" id="preferred-date" name="preferred_date" placeholder="Day - month - year" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="preferred-location">Preferred Location?</label>
+                    <input type="text" id="preferred-location" name="preferred_location" placeholder="Your preferred photoshoot location or town">
+                </div>
+
+                <div class="form-group">
+                    <label>Tell me more about your special day*</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="immediate-family" name="family_option" value="immediate">
+                        <label for="immediate-family">Wedding Photography</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="maternity-newborn" name="family_option" value="maternity_newborn">
+                        <label for="maternity-newborn">Pre Wedding (Engagement Photography)</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="couple" name="family_option" value="couple">
+                        <label for="couple">Intimate Wedding Photography [50 guests or less]</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="extended-family" name="family_option" value="extended">
+                        <label for="extended-family">Vow Renewal Photography</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">How would you describe your dream day and style?</label>
+                    <textarea id="message" name="message" placeholder="Enter your message" rows="6"></textarea>
+
+                    <label for="message">Do you have any questions or concerns before booking?</label>
+                    <textarea id="message" name="message" placeholder="Enter your message" rows="6"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>How did you find FotSum Creative</label>
+                    <div class="radio-group">
+                        <input type="radio" id="friends-recommendation" name="find_us" value="friends">
+                        <label for="friends-recommendation">Friends Recommendation</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" id="social-media" name="find_us" value="social_media">
+                        <label for="social-media">Social Media</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" id="google-search" name="find_us" value="Google Search">
+                        <label for="google-search">Google Search</label>
+                    </div>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-logo">
+            <img src="Logo Fotsum.png" alt="FotSum Creative Logo"> <p>FotSum</p>
+            <span>CREATIVE</span>
+        </div>
+        <div class="footer-about">
+            <h3>ABOUT</h3>
+            <p><a href="https://wa.me/6285691684145">Contact</a></p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-newsletter">
+            <h3>Subscribe to our email list for updates & special offers!</h3>
+            <form action="#" method="POST" class="newsletter-form">
+                <input type="email" placeholder="Email address">
+                <button type="submit">></button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
